@@ -1,0 +1,12 @@
+package baselibrary;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Baselibrary {
+public void launchurl()
+{
+WebDriver driver = new ChromeDriver()	
+}
+
+}

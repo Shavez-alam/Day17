@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<test name="Test"  enabled="false">
+	<parameter name="browser" value="chrome"></parameter>
+	<classes>
+		<class name="tests.LoginTest"/>
+	</classes>
+</test>
+
+<test name="testboxtest" enabled="false">
+	<groups>
+		<run>
+			<include name="smoke"></include>
+		</run> 
+	</groups>
+	<classes>
+		<class name="tests.TextboxTest"/>
+	</classes>
+</test>
+
+
+<test name="testcheckboxtest" enabled="false">
+	<classes>
+		<class name="tests.CheckboxTest"/>
+	</classes>
+</test>
+
+<test name="linkpagetest" enabled="false">
+	<classes>
+		<class name="tests.LinkPageTest"/>
+		
+	</classes>
+</test>
+
+<test name="uploadfiletest" enabled="true">
+		<parameter name="browser" value="chrome"></parameter>
+	<classes>
+		<class name="tests.UploadFileTest"/>
+	</classes>
+</test>
+
+
+</suite> <!-- Suite -->

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-07T16:53:04 IST" name="Suite" finished-at="2024-10-07T16:53:32 IST" duration-ms="27720">
+    <groups>
+    </groups>
+    <test started-at="2024-10-07T16:53:04 IST" name="uploadfiletest" finished-at="2024-10-07T16:53:32 IST" duration-ms="27720">
+      <class name="tests.UploadFileTest">
+        <test-method is-config="true" signature="launchurl()[pri:0, instance:tests.UploadFileTest@3a44431a]" started-at="2024-10-07T16:53:04 IST" name="launchurl" finished-at="2024-10-07T16:53:18 IST" duration-ms="13598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method signature="close()[pri:1, instance:tests.UploadFileTest@3a44431a]" started-at="2024-10-07T16:53:18 IST" name="close" finished-at="2024-10-07T16:53:24 IST" duration-ms="5646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="getResultAnlysis(org.testng.ITestResult)[pri:0, instance:tests.UploadFileTest@3a44431a]" started-at="2024-10-07T16:53:24 IST" name="getResultAnlysis" finished-at="2024-10-07T16:53:24 IST" duration-ms="623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=close status=SUCCESS method=UploadFileTest.close()[pri:1, instance:tests.UploadFileTest@3a44431a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAnlysis -->
+        <test-method signature="practice()[pri:2, instance:tests.UploadFileTest@3a44431a]" started-at="2024-10-07T16:53:24 IST" name="practice" finished-at="2024-10-07T16:53:27 IST" duration-ms="2484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- practice -->
+        <test-method is-config="true" signature="getResultAnlysis(org.testng.ITestResult)[pri:0, instance:tests.UploadFileTest@3a44431a]" started-at="2024-10-07T16:53:27 IST" name="getResultAnlysis" finished-at="2024-10-07T16:53:27 IST" duration-ms="187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=practice status=SUCCESS method=UploadFileTest.practice()[pri:2, instance:tests.UploadFileTest@3a44431a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAnlysis -->
+        <test-method signature="elements()[pri:3, instance:tests.UploadFileTest@3a44431a]" started-at="2024-10-07T16:53:27 IST" name="elements" finished-at="2024-10-07T16:53:27 IST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elements -->
+        <test-method is-config="true" signature="getResultAnlysis(org.testng.ITestResult)[pri:0, instance:tests.UploadFileTest@3a44431a]" started-at="2024-10-07T16:53:27 IST" name="getResultAnlysis" finished-at="2024-10-07T16:53:27 IST" duration-ms="184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=elements status=SUCCESS method=UploadFileTest.elements()[pri:3, instance:tests.UploadFileTest@3a44431a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAnlysis -->
+        <test-method signature="uploadanddownload()[pri:4, instance:tests.UploadFileTest@3a44431a]" started-at="2024-10-07T16:53:27 IST" name="uploadanddownload" finished-at="2024-10-07T16:53:28 IST" duration-ms="442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadanddownload -->
+        <test-method is-config="true" signature="getResultAnlysis(org.testng.ITestResult)[pri:0, instance:tests.UploadFileTest@3a44431a]" started-at="2024-10-07T16:53:28 IST" name="getResultAnlysis" finished-at="2024-10-07T16:53:28 IST" duration-ms="381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=uploadanddownload status=SUCCESS method=UploadFileTest.uploadanddownload()[pri:4, instance:tests.UploadFileTest@3a44431a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAnlysis -->
+        <test-method signature="choosefileforupload()[pri:5, instance:tests.UploadFileTest@3a44431a]" started-at="2024-10-07T16:53:28 IST" name="choosefileforupload" finished-at="2024-10-07T16:53:29 IST" duration-ms="709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- choosefileforupload -->
+        <test-method is-config="true" signature="getResultAnlysis(org.testng.ITestResult)[pri:0, instance:tests.UploadFileTest@3a44431a]" started-at="2024-10-07T16:53:29 IST" name="getResultAnlysis" finished-at="2024-10-07T16:53:29 IST" duration-ms="200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=choosefileforupload status=SUCCESS method=UploadFileTest.choosefileforupload()[pri:5, instance:tests.UploadFileTest@3a44431a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAnlysis -->
+        <test-method signature="uploadcopyfiles()[pri:6, instance:tests.UploadFileTest@3a44431a]" started-at="2024-10-07T16:53:29 IST" name="uploadcopyfiles" finished-at="2024-10-07T16:53:32 IST" duration-ms="2698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadcopyfiles -->
+        <test-method is-config="true" signature="getResultAnlysis(org.testng.ITestResult)[pri:0, instance:tests.UploadFileTest@3a44431a]" started-at="2024-10-07T16:53:32 IST" name="getResultAnlysis" finished-at="2024-10-07T16:53:32 IST" duration-ms="294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=uploadcopyfiles status=SUCCESS method=UploadFileTest.uploadcopyfiles()[pri:6, instance:tests.UploadFileTest@3a44431a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAnlysis -->
+      </class> <!-- tests.UploadFileTest -->
+    </test> <!-- uploadfiletest -->
+  </suite> <!-- Suite -->
+</testng-results>
